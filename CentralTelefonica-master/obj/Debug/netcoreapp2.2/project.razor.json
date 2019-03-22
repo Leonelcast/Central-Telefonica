@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\leone\\Proyecto\\CentralTelefonica-master\\CentralTelefonica-master\\CentralTelefonica.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
