@@ -20,3 +20,14 @@ C:\Users\leone\Proyecto\CentralTelefonica-master\CentralTelefonica-master\bin\De
 C:\Users\leone\Proyecto\CentralTelefonica-master\CentralTelefonica-master\bin\Debug\netcoreapp2.2\CentralTelefonica.runtimeconfig.dev.json
 C:\Users\leone\Proyecto\CentralTelefonica-master\CentralTelefonica-master\bin\Debug\netcoreapp2.2\CentralTelefonica.dll
 C:\Users\leone\Proyecto\CentralTelefonica-master\CentralTelefonica-master\bin\Debug\netcoreapp2.2\CentralTelefonica.pdb
+C:\Users\leone\Kinal\Central-Telefonica\CentralTelefonica-master\bin\Debug\netcoreapp2.2\CentralTelefonica.deps.json
+C:\Users\leone\Kinal\Central-Telefonica\CentralTelefonica-master\bin\Debug\netcoreapp2.2\CentralTelefonica.runtimeconfig.json
+C:\Users\leone\Kinal\Central-Telefonica\CentralTelefonica-master\bin\Debug\netcoreapp2.2\CentralTelefonica.runtimeconfig.dev.json
+C:\Users\leone\Kinal\Central-Telefonica\CentralTelefonica-master\bin\Debug\netcoreapp2.2\CentralTelefonica.dll
+C:\Users\leone\Kinal\Central-Telefonica\CentralTelefonica-master\bin\Debug\netcoreapp2.2\CentralTelefonica.pdb
+C:\Users\leone\Kinal\Central-Telefonica\CentralTelefonica-master\obj\Debug\netcoreapp2.2\CentralTelefonica.csprojAssemblyReference.cache
+C:\Users\leone\Kinal\Central-Telefonica\CentralTelefonica-master\obj\Debug\netcoreapp2.2\CentralTelefonica.csproj.CoreCompileInputs.cache
+C:\Users\leone\Kinal\Central-Telefonica\CentralTelefonica-master\obj\Debug\netcoreapp2.2\CentralTelefonica.AssemblyInfoInputs.cache
+C:\Users\leone\Kinal\Central-Telefonica\CentralTelefonica-master\obj\Debug\netcoreapp2.2\CentralTelefonica.AssemblyInfo.cs
+C:\Users\leone\Kinal\Central-Telefonica\CentralTelefonica-master\obj\Debug\netcoreapp2.2\CentralTelefonica.dll
+C:\Users\leone\Kinal\Central-Telefonica\CentralTelefonica-master\obj\Debug\netcoreapp2.2\CentralTelefonica.pdb

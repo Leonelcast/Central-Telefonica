@@ -224,33 +224,41 @@ namespace CentralTelefonica.App
                 WriteLine($"Costo total: {costoTotalFranjaTres}");
             }
         }
-        //tarea
+          //tarea
         public int calcularFranja(DateTime fecha)
         {   //0, 1 o 2 que devuleva las franjas dependiendo de la fecha del sistema 
             fecha = DateTime.Now;
-            int total = 0;
+            int franja = 0;
             int dia = Convert.ToInt32(fecha.DayOfWeek);
             int hora = fecha.Hour;
+    
+            if (dia >= 1 && dia <= 5) // verifica los dias de lunes a viernes 
+            {
+                if (hora >= 6 && hora < 22) // si la hora es mayor e igual a 6 am y menor a 22  la franja es 0 
+                {
+                    franja = 0;
+                }
+                else if (hora < 6 || hora >= 22) // si la franja es menor a 6 o mayor o igual que 22 la franja es 1 
+                {
+                    franja = 1;
 
-            if (dia >= 1 && dia <= 5) // lunes a viernes 
-            {
-                if (hora >= 6 || hora <= 21) // lunes a viernes de 6 a 21
-                {
-                    total = 0; // franja 1
-                }
-                else if (hora >= 22 || hora <= 5) // lunes a viernes de 22 a 5
-                {
-                    total = 1; // franja 2
                 }
             }
-            else if (dia == 6 && dia == 0) // sabado y domingo 
+            else if (dia == 0 || dia == 6) // verifica los dias domingo y sabado 
             {
-                if (hora >= 22 || hora <= 5) // sabado y domingo de 22 a 5 
+                if (hora >= 22 || hora <= 6) // si es mayor o igual a 22 o menor o igual a 6 es franja 2
                 {
-                    total = 2; // franja 3
+                    franja = 2;
+
                 }
+                else if (hora > 6 && hora < 22) // // si es mayor a 6 o menor 22 es franja 2
+                {
+                    franja = 2;
+
+                }
+
             }
-            return total;
+            return franja;// que retorne el valor de la franja dependiendo de la hora del sistema 
         }
     }
 }
